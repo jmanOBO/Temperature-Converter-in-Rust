@@ -1,8 +1,8 @@
 use std::io;
 #[derive(Debug)]
-struct Celsius(pub f64);
+struct Celsius(f64);
 #[derive(Debug)]
-struct Fahrenheit(pub f64);
+struct Fahrenheit(f64);
 
 impl Celsius {
     fn new(n: f64) -> Self {
